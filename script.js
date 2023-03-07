@@ -1,10 +1,13 @@
-let screenWidth = window.innerWidth;
-
+let medianScreen = window.screen.width;
 
 //this function will reverse the order of the experience box whenever the width of the sreen is more than 992
-function experienceOrder (screenWidth){
+function boxReverser (medianScreen){ 
    let boxes = document.querySelectorAll('.experience__box'); 
-    if(screenWidth > 992) {
-        boxes.forEach((e) => {e})
-    }
-}
+    if(medianScreen > 992) {
+        for(let i = 0; i < boxes.length; i++){
+            if(i % 2 == 0) boxes[i].classList.toggle('experience__box__reverse')
+        }    
+    } 
+};
+
+window.addEventListener('resize', boxReverser(medianScreen));
