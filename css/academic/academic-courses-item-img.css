@@ -1,0 +1,28 @@
+.academic__courses__item__img{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background: #FFFFFF;
+ max-width: 23rem;
+ aspect-ratio: 3/2;
+}
+
+@media screen and (max-width: 992px) {
+    .academic__courses__item__img{
+        max-width: 14rem;
+        aspect-ratio: 3/2;
+    }
+    .academic__courses__item__img img{
+        width: 84px;
+        height: 58px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .academic__courses__item__img{
+        margin-right: 0;
+        padding: 0;
+        max-width: 320px;
+        aspect-ratio: 16/9;
+    }
+}

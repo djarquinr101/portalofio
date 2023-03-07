@@ -1,0 +1,5 @@
+.academic__course__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}

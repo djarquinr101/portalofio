@@ -1,0 +1,11 @@
+.academic__title{
+    font-size: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+    .academic__title{
+        font-size: 1.375rem;
+        font-weight: 700;
+    }
+}

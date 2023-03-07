@@ -1,0 +1,11 @@
+.title__profile{
+    width:280px;
+    height: 280px;
+}
+
+@media screen and (max-width: 992px) {
+    .title__profile{
+        width:146px;
+        height: 146px;
+    }
+}

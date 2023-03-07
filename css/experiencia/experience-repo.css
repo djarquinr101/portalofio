@@ -1,0 +1,29 @@
+
+.experiencia__botao--repo{
+    width: 7.25rem;
+    height: 3.1875rem;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+
+}
+
+.experience__botao--demo{
+    width: 7.25rem;
+    height: 3.1875rem;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    border: none;
+}
+
+@media screen and (max-width: 576px) {
+    .experiencia__botao--repo{
+        width: 108px;
+        height: 40px;
+    }
+
+    .experience__botao--demo{
+        width: 108px;
+        height: 40px;
+    }
+
+}

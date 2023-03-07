@@ -1,0 +1,15 @@
+.academic{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3rem;
+    background: #EAF2FD;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+@media screen and (max-width: 992px) {
+    .academic{
+        padding-left: 1rem;
+        padding-right: 0;
+    }
+}

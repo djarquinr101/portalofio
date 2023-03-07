@@ -1,0 +1,13 @@
+.skills{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3rem;
+    background: #CBC9C9;
+}
+
+@media screen and (max-width: 992px) {
+    .skills{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

@@ -1,0 +1,16 @@
+.formcontato{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background: #c3dafa;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 576px) {
+    .formcontato{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+

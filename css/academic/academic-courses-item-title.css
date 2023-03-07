@@ -1,0 +1,15 @@
+.academic__courses__item__title{
+    list-style: none;
+    font-size: 1.5rem;
+    margin-top: 0.6rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 992px) {
+    .academic__courses__item__title{
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.1875rem;
+    }
+
+}

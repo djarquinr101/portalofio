@@ -1,0 +1,10 @@
+.about__title{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 992px) {
+  .about__title{
+    font-size: 1.375rem;
+  }
+}

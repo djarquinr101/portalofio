@@ -1,0 +1,16 @@
+.about{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background: #c3dafa;
+    padding-top: 3rem;
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+
+@media screen and (max-width: 992px) {
+    .about{
+        padding-left: 1rem;
+        padding-right: 0;
+    }
+}

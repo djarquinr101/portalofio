@@ -1,0 +1,7 @@
+.academic__courses__box{
+    display: flex;
+    flex-direction: column;
+    width: 23rem;
+    height: auto;
+}
+

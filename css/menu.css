@@ -1,0 +1,25 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.menu nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 992px) {
+    .menu{
+        padding-left: 1rem;
+        padding-right: 0;
+    }
+
+    .menu nav{
+     column-gap: 2rem;
+    }
+
+}

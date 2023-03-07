@@ -1,0 +1,21 @@
+.skills__line{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    gap: 1rem
+}
+
+@media screen and (max-width: 992px) {
+  .skills__line{
+    flex-wrap: wrap;
+    column-gap: 1rem;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .skills__line{
+    justify-content: space-around;
+  }
+}

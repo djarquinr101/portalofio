@@ -1,0 +1,11 @@
+.about__paragraph{
+    font-weight: 400;
+}
+
+@media screen and (max-width: 992px) {
+    .about__paragraph{
+        font-weight: 400;
+        font-size: 0.875rem;   
+    }
+
+}

@@ -1,0 +1,14 @@
+.title__network{
+    display: flex;
+    flex-direction: row;
+}
+
+.title__network__item{
+  margin-right: 1.7rem;  
+  list-style: none;
+}
+
+.title__network__item a{
+    text-decoration: none;
+}
+

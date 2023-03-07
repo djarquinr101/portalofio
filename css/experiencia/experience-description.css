@@ -1,0 +1,14 @@
+.experience__description{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 576px) {
+    .experience__description{
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,14 @@
+.experience__info{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 576px) {
+    .experience__info{
+        margin-top: 1rem;
+        gap: 0.25rem;
+    }
+
+}
+

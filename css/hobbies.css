@@ -1,0 +1,19 @@
+.hobbies{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3rem;
+    background: #CBC9C9;
+}
+
+@media screen and (max-width: 992px) {
+    .hobbies{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .hobbies{
+        padding-left: 0;
+    }
+}

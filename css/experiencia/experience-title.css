@@ -1,0 +1,12 @@
+.experience__title{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 576px) {
+    .experience__title{
+        font-size: 1rem;
+    }
+}
+
+

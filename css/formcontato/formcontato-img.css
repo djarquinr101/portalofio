@@ -1,0 +1,11 @@
+.formcontato__img{
+    max-width: 464px;
+    max-height: 593px;
+}
+
+@media screen and (max-width: 992px) {
+    .formcontato__img{
+        display: none;
+    }
+
+}

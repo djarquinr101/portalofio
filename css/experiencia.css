@@ -1,0 +1,15 @@
+.experience{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    background: #CBC9C9;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 576px) {
+   .experience{
+    margin-bottom: 0;
+   } 
+}
