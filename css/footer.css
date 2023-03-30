@@ -1,0 +1,16 @@
+.footer{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    background: white;
+}
+
+.footer__rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__rodape p{
+    margin: 0.2rem;
+}
